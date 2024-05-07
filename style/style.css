@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.user-name{
+font-family: "Poppins";
+
+
+}
+a {
+  color: #22953d;
+  text-decoration: none;
+}
+a:hover{
+  color: #28422f;
+}
+.button-link{
+
+  border-color: #28422f;
+}
+/* Hover effect */
+.button-link:hover {
+  color: #136c28;/* Darker color on hover */
+}
+.button-link-div{
+  display: inline-block;
+  padding-bottom: 2.5rem;
+
+}
+
+.bg-custom {
+    background-color: #22953d55;
+  }
+.text-custom {
+    color:#28422f; 
+  }
+
+.btn-custom {
+    border-color:#28422f;
+    color:#28422f; 
+
+  }
+.btn-custom:hover {
+      background-color:#28422f; 
+      width: 100px;
+    }
+
+ 
+.btn-custom-sup-mod {
+    border-color:#28422f;
+    color:#28422f; 
+    min-width: 100px;
+    max-width: auto;
+  }
+
+  .btn-custom-sup-mod:hover {
+    background-color:#28422f;
+  }
+ 
+
+.a-custom:hover{
+    color:#28422f;
+}
+
+.btn-text-custom:hover{
+    color: white;
+}
+
+.bg-custom-navv{
+    background-color: #22953d55;
+    padding: 2rem;
+}
+
+.footer {
+    text-align: center; /* Center-align text */
+    padding: 20px 0; /* Add some padding */
+  }
+
+
+
+.logout-custom{
+  color: #22953d;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-tree{
+  position: absolute;
+  width: 30%;
+  top: 14px;
+  left: 83.5rem;
+}
+::-webkit-scrollbar {
+  width: 9px;
+  height: 20px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #22953de4; /* Green color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Hover State for Scrollbar Handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #28422f; /* Darker green color on hover */
+}
